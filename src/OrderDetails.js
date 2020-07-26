@@ -1,30 +1,56 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "react-bootstrap";
+import "./index.css";
 
-export default function OrderDetails() {
+export default function OrderDetails(props) {
+  const [totalOrders, setTotalOrders] = useState(
+    JSON.parse(localStorage.getItem("totalOrder")) || []
+  );
+  const [orderTable, setOrderTable] = useState(
+    JSON.parse(localStorage.getItem("totalOrder")) || []
+  );
+  function getTotalOrder() {
+    let order = 0;
+    orderTable.forEach((obj) => {
+      order += obj.totalCost;
+    });
+    return order;
+  }
+
+  function searchByName(params) {
+    let totalOrder = [...totalOrders];
+    if (params) {
+      totalOrder = totalOrders.filter((obj) => {
+        return obj.name.toLowerCase().includes(params.toLowerCase());
+      });
+    }
+    setOrderTable([...totalOrder]);
+  }
+
   return (
-    <div>
-      <div>
+    <div style={{ margin: "20px" }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+        }}
+      >
         <Button
-          onClick={() =>
-            this.setState({
-              showForm: true,
-            })
-          }
+          onClick={() => props.history.push("/")}
+          style={{ margin: "5px 5px" }}
         >
           Back
         </Button>
         <input
           type="text"
           placeholder="search by name"
-          onChange={(e) =>
-            this.setState({
-              searchName: e.target.value,
-            })
-          }
+          style={{ margin: "5px 5px" }}
+          onChange={(e) => searchByName(e.target.value)}
         />
-        <Button onClick={() => this.searchByName()}>Search</Button>
-        <table>
+      </div>
+      <div>
+        <table id="customers">
           <thead>
             <tr>
               <th>Name</th>
@@ -36,7 +62,7 @@ export default function OrderDetails() {
             </tr>
           </thead>
           <tbody>
-            {this.state.totalOrder.map(
+            {orderTable.map(
               ({ name, bun, salad, cheese, cutlet, totalCost }) => {
                 return (
                   <tr>
@@ -52,7 +78,7 @@ export default function OrderDetails() {
             )}
           </tbody>
         </table>
-        <h4>Total Order: {this.getTotalOrder()}</h4>
+        <h4>Total Order: {getTotalOrder()}</h4>
       </div>
     </div>
   );
