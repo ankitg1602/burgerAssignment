@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import { Button } from "react-bootstrap";
-import ScoreInfo from "./../Component/ScoreInfo"
+import React from "react";
+import ScoreInfo from "./../component/ScoreInfo"
 
 const ScoreInfos = ({ scoresData = [] }) => {
     return (

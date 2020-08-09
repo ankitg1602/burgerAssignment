@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import { Card, ListGroup } from "react-bootstrap";
-import ScoreInfo from "./../Component/ScoreInfo"
+import React from "react";
 
 const KeyBoardInfo = ({ data }) => {
     const { highest_rank, search_volume, theme_list } = data

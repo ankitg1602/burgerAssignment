@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Accordion, Card } from "react-bootstrap";
-import ScoreInfo from "./../Component/ScoreInfo"
+
 
 const Packs = ({ packsData = [] }) => {
     return (
