@@ -36,6 +36,11 @@ code {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #4CAF50;
-  color: white;
+  /* background-color: #4CAF50; */
+  color: black;
+}
+
+.table-container {
+  width: 100%;
+  margin: 2rem;
 }

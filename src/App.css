@@ -24,14 +24,66 @@
   color: white;
 }
 
+.width100 {
+  display: flex;
+  width: 100%;
+}
+
+.margin0-10 {
+  margin: 0px 10px;
+}
+
+.red-color {
+  color: red;
+}
+
+.green-color {
+  color: green;
+}
+
+.table-container {
+  height: 500px;
+  overflow-y: auto;
+}
+
+.score-card {
+  display: flex;
+  border: 1px solid #c6c6c6;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem 0rem;
+  border-radius: 4px;
+
+}
+
+.flex-context-around {
+  display: flex;
+  justify-content: space-between;
+}
+
+.theme-conatiner {
+  display: flex;
+}
+
+.keyboard-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 3rem 0rem;
+  border: 1px solid #c6c6c6;
+}
+
+
 .App-link {
-  color: #61dafb;
+  color: #bbbbbb;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

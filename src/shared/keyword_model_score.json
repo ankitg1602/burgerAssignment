@@ -1,0 +1,340 @@
+{
+    "parameters": [{
+            "type": "technical",
+            "display_text": "H1 rel",
+            "importance": "very high",
+            "is_positive_correlation": true,
+            "name": "outbound_links_count_crawlera",
+            "value": 0.1
+        },
+        {
+            "type": "authority",
+            "display_text": "H2 rel",
+            "importance": "very high",
+            "is_positive_correlation": true,
+            "name": "titlevc_cos_sim_backlink_wiki",
+            "value": 0.2
+        },
+        {
+            "type": "technical",
+            "display_text": "Meta",
+            "importance": "very high",
+            "is_positive_correlation": true,
+            "name": "age_expiry",
+            "value": 0.06
+        },
+        {
+            "type": "authority",
+            "display_text": "Title",
+            "importance": "very high",
+            "is_positive_correlation": true,
+            "name": "domain_rating",
+            "value": 22
+        },
+        {
+            "type": "technical",
+            "display_text": "Body",
+            "importance": "very high",
+            "is_positive_correlation": false,
+            "name": "age_update",
+            "value": 12
+        },
+        {
+            "type": "technical",
+            "display_text": "Backlinks",
+            "importance": "high",
+            "is_positive_correlation": true,
+            "name": "age_create",
+            "value": 6
+        },
+        {
+            "type": "technical",
+            "display_text": "HTML size (kb)",
+            "importance": "high",
+            "is_positive_correlation": true,
+            "name": "html_size_ln_deepcrawl",
+            "value": null
+        },
+        {
+            "type": "technical",
+            "display_text": "Fetch time (sec)",
+            "importance": "high",
+            "is_positive_correlation": false,
+            "name": "fetch_time_deepcrawl",
+            "value": null
+        },
+        {
+            "type": "authority",
+            "display_text": "Ahrefs URL rating",
+            "importance": "high",
+            "is_positive_correlation": true,
+            "name": "url_rating",
+            "value": 40
+        },
+        {
+            "type": "authority",
+            "display_text": "Backlinks with anchor text (%)",
+            "importance": "high",
+            "is_positive_correlation": true,
+            "name": "anchor_count_pct",
+            "value": 99.46308724832214
+        },
+        {
+            "type": "authority",
+            "display_text": "Backlinks with anchor text same as keyword (%)",
+            "importance": "high",
+            "is_positive_correlation": true,
+            "name": "anchor_full_match_pct",
+            "value": 0
+        },
+        {
+            "type": "authority",
+            "display_text": "Number of backlinks",
+            "importance": "high",
+            "is_positive_correlation": true,
+            "name": "backlinks_ln",
+            "value": 1254
+        },
+        {
+            "type": "technical",
+            "display_text": "Number of redirects on page",
+            "importance": "high",
+            "is_positive_correlation": false,
+            "name": "redirect_count_crawlera",
+            "value": null
+        },
+        {
+            "type": "authority",
+            "display_text": "Number of referring pages",
+            "importance": "high",
+            "is_positive_correlation": true,
+            "name": "refpages_ln",
+            "value": 1254
+        },
+        {
+            "type": "technical",
+            "display_text": "Content to HTML ratio",
+            "importance": "medium",
+            "is_positive_correlation": true,
+            "name": "content_html_ratio_deepcrawl",
+            "value": null
+        },
+        {
+            "type": "authority",
+            "display_text": "Dofollow backlinks (%)",
+            "importance": "medium",
+            "is_positive_correlation": true,
+            "name": "dofollow_pct",
+            "value": 57.62052877138414
+        },
+        {
+            "type": "authority",
+            "display_text": "Number of referring class-c networks",
+            "importance": "medium",
+            "is_positive_correlation": true,
+            "name": "refclass_c_ln",
+            "value": null
+        },
+        {
+            "type": "technical",
+            "display_text": "HTTPS on page",
+            "importance": "medium",
+            "is_positive_correlation": true,
+            "name": "https",
+            "value": true
+        },
+        {
+            "type": "authority",
+            "display_text": "Keyword occurrence in backlink anchor texts",
+            "importance": "low",
+            "is_positive_correlation": true,
+            "name": "tf_idf_anchor_context",
+            "value": 0.022621743950466518
+        },
+        {
+            "type": "authority",
+            "display_text": "Number of referring IP",
+            "importance": "low",
+            "is_positive_correlation": true,
+            "name": "refips_ln",
+            "value": 185
+        },
+        {
+            "type": "authority",
+            "display_text": "Backlinks with textual anchor text (%)",
+            "importance": "low",
+            "is_positive_correlation": true,
+            "name": "text_ln",
+            "value": 1287
+        },
+        {
+            "type": "authority",
+            "display_text": "Backlinks with URL as anchor text (%)",
+            "importance": "low",
+            "is_positive_correlation": true,
+            "name": "anchor_url_count_pct",
+            "value": 2.8187919463087248
+        },
+        {
+            "type": "technical",
+            "display_text": "Responsive page",
+            "importance": "low",
+            "is_positive_correlation": true,
+            "name": "has_viewport_deepcrawl",
+            "value": null
+        },
+        {
+            "type": "authority",
+            "display_text": "Backlinks with generic anchor text (%)",
+            "importance": "low",
+            "is_positive_correlation": false,
+            "name": "generic_anchor_count_pct",
+            "value": 9.93288590604027
+        },
+        {
+            "type": "technical",
+            "display_text": "URL depth",
+            "importance": "low",
+            "is_positive_correlation": false,
+            "name": "url_depth",
+            "value": 2
+        },
+        {
+            "type": "technical",
+            "display_text": "Number of internal links on page",
+            "importance": "very low",
+            "is_positive_correlation": false,
+            "name": "links_internal_pct",
+            "value": 80.37974683544304
+        },
+        {
+            "type": "authority",
+            "display_text": "Semantic relevance of backlink content to keyword",
+            "importance": "very low",
+            "is_positive_correlation": true,
+            "name": "ke_cos_sim_backlink_wiki",
+            "value": null
+        },
+        {
+            "type": "technical",
+            "display_text": "AMP on page",
+            "importance": "very low",
+            "is_positive_correlation": true,
+            "name": "mobile_rel_amphtml_deepcrawl",
+            "value": null
+        },
+        {
+            "type": "technical",
+            "display_text": "HSTS on page",
+            "importance": "very low",
+            "is_positive_correlation": true,
+            "name": "has_hsts_deepcrawl",
+            "value": null
+        },
+        {
+            "type": "technical",
+            "display_text": "Redirect loop on page",
+            "importance": "very low",
+            "is_positive_correlation": false,
+            "name": "is_redirect_loop_deepcrawl",
+            "value": null
+        },
+        {
+            "type": "technical",
+            "display_text": "Self canonical on page",
+            "importance": "very low",
+            "is_positive_correlation": true,
+            "name": "is_self_canonical_deepcrawl",
+            "value": null
+        },
+        {
+            "type": "technical",
+            "display_text": "Rel alternate on page",
+            "importance": "very low",
+            "is_positive_correlation": true,
+            "name": "mobile_rel_alternate_deepcrawl",
+            "value": null
+        },
+        {
+            "type": "authority",
+            "display_text": "Backlinks from edu domains (%)",
+            "importance": "very low",
+            "is_positive_correlation": true,
+            "name": "edu_pct",
+            "value": 0.39904229848363926
+        },
+        {
+            "type": "authority",
+            "display_text": "Backlinks from gov domains (%)",
+            "importance": "very low",
+            "is_positive_correlation": true,
+            "name": "gov_pct",
+            "value": 0
+        },
+        {
+            "type": "authority",
+            "display_text": "Non-sitewide backlinks (%)",
+            "importance": "very low",
+            "is_positive_correlation": true,
+            "name": "not_sitewide_pct",
+            "value": 100
+        },
+        {
+            "type": "technical",
+            "display_text": "Vary user agent on page",
+            "importance": "very low",
+            "is_positive_correlation": true,
+            "name": "vary_user_agent_deepcrawl",
+            "value": null
+        },
+        {
+            "type": "authority",
+            "display_text": "Referring domain to backlink ratio",
+            "importance": "very low",
+            "is_positive_correlation": true,
+            "name": "refdomains_to_backlinks_ratio",
+            "value": 0.14684756584197925
+        },
+        {
+            "type": "authority",
+            "display_text": "Referring IP to referring domain ratio",
+            "importance": "very low",
+            "is_positive_correlation": true,
+            "name": "refips_to_refdomains_ratio",
+            "value": 1
+        },
+        {
+            "type": "technical",
+            "display_text": "Canonical on page",
+            "importance": "very low",
+            "is_positive_correlation": true,
+            "name": "canonicalized_page_deepcrawl",
+            "value": null
+        }
+    ],
+    "scores": [{
+            "name": "alps_score",
+            "type": "alps",
+            "display_text": "ALPS",
+            "value": 0.36230042315404576
+        },
+        {
+            "name": "content_score",
+            "type": "content",
+            "display_text": "CONTENT",
+            "value": 0.9067911360354192
+        },
+        {
+            "name": "authority_score",
+            "type": "authority",
+            "display_text": "AUTHORITY",
+            "value": 0.6977583766236513
+        },
+        {
+            "name": "technical_score",
+            "type": "technical",
+            "display_text": "TECHNICAL",
+            "value": 0.1367710753901603
+        }
+    ]
+}
